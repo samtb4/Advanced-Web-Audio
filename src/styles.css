@@ -1,0 +1,9 @@
+body { font-family: Inter, system-ui, Arial; background:#0f172a; color:#e6eef8; padding:20px;}
+.app { max-width:1000px; margin:0 auto; }
+.player { background:#0b1220; border-radius:8px; padding:16px; box-shadow: 0 6px 18px rgba(0,0,0,0.6); }
+.controls-row { display:flex; gap:8px; align-items:center; margin-bottom:12px; }
+.controls-row button { padding:8px 12px; border-radius:6px; border:none; cursor:pointer; background:#1f2937; color:#e6eef8; }
+.file-label { display:inline-flex; gap:8px; align-items:center; cursor:pointer; padding:8px 12px; background:#1f2937; border-radius:6px; }
+.sliders { margin-bottom:12px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.sliders label { display:flex; gap:8px; align-items:center; }
+.visualiser { margin-top:8px; }
